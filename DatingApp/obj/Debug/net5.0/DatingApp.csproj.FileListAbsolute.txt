@@ -55,3 +55,9 @@ E:\DatingApp\DatingApp\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 E:\DatingApp\DatingApp\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 E:\DatingApp\DatingApp\bin\Debug\net5.0\Humanizer.dll
 E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\angular.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\package-lock.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\package.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.app.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.spec.json
