@@ -61,3 +61,10 @@ E:\DatingApp\DatingApp\bin\Debug\net5.0\client\package.json
 E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.app.json
 E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.json
 E:\DatingApp\DatingApp\bin\Debug\net5.0\client\tsconfig.spec.json
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\DatingApp\DatingApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
