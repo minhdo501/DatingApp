@@ -46,6 +46,27 @@ Using shared modules (in DatingApp/client/src/app folder): mkdir _modules -> cd 
 -> Modify shared modules in shared.module.ts
 -> Inject the SharedModule into app.module.ts
 
+Testing error in client side (in DatingApp/client/src/app/errors folder): ng g c test-errors --skip-tests
+-> In app-routing.module.ts: {path: 'errors', component: TestErrorsComponent},
+
+Adding Error Interceptor (in app/_interceptors folder): ng g interceptor --skip-tests -> error
+-> In app.module.ts: providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
+  ],
+
+Adding flat() method in tsconfig.json: "lib": [
+      "es2019",
+      "es2018",
+      "dom"
+    ]
+-> ng serve
+
+Adding Handling NotFound page (in app/errors folder): ng g c not-found --skip-tests
+-> In app-routing.module.ts: {path: 'not-found', component: NotFoundComponent},
+
+Adding Handling ServerError page (in app/errors folder): ng g c server-error --skip-tests
+-> In app-routing.module.ts: {path: 'not-found', component: NotFoundComponent},
+
 => Services are injectable, and singleton (only get destroyed when application closed) -> used for making HTTP requests
 => When moving between component and component in Angular, they are destroyed because not being used
 => Observable object is lazy, it doesn't do anything until we subcribe to Observable
