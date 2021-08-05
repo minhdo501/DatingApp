@@ -2,6 +2,10 @@ MIGRATION
 
 Add migration VSCode: dotnet ef migrations add InitialCreate -o Data/Migrations
 Update Database: dotnet ef database update
+Add ExtendedUserEntity: dotnet ef migrations add ExtendedUserEntity
+Remove Migration: dotnet ef migrations remove
+Adding data to DB in Json format: using Json Generator
+Drop DB: dotnet ef database drop
 
 ANGULAR
 Move to Angular project: cd client (client is the name of Angular project)

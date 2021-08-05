@@ -1,0 +1,3 @@
+var user = new User{Username = "bob"};
+var mockRepo = MockRepository.GenerateMock<IRepository>();
+mockRepo.Expect(x => x.GetUser("bob")).Return(user);
