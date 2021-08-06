@@ -71,6 +71,17 @@ Adding Handling NotFound page (in app/errors folder): ng g c not-found --skip-te
 Adding Handling ServerError page (in app/errors folder): ng g c server-error --skip-tests
 -> In app-routing.module.ts: {path: 'not-found', component: NotFoundComponent},
 
+Adding Member Service (in app/_services folder): ng g s members --skip-tests
+
+Creating Member Card (in app/members folder): ng g c member-card --skip-tests
+
+Using interceptors to send token (in app/_interceptors folder): ng g interceptor jwt --skip-tests
+
+Adding Photo Gallery (in client folder): npm install @kolkov/ngx-gallery
+-> Config in shared-module
+-> Restart VSCode
+
+
 => Services are injectable, and singleton (only get destroyed when application closed) -> used for making HTTP requests
 => When moving between component and component in Angular, they are destroyed because not being used
 => Observable object is lazy, it doesn't do anything until we subcribe to Observable

@@ -31,3 +31,5 @@ namespace DatingApp.Data
         }
     }
 }
+
+// UserSeedData.json is generated from JSON Generator website
